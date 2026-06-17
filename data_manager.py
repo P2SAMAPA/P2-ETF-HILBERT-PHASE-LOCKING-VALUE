@@ -87,6 +87,7 @@ def load_master_data(
     logger.info(f"Downloading master parquet from {config.DATA_REPO} …")
     parquet_path = None
     for fname in [
+        "master_data.parquet",
         "data/master.parquet",
         "master.parquet",
         "fi_etf_macro_master.parquet",
