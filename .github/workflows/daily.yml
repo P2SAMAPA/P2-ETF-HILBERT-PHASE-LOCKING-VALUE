@@ -1,7 +1,7 @@
 name: Daily Hilbert PLV Run
 on:
   schedule:
-    - cron: "30 00 * * 1-6"
+    - cron: "30 22 * * 1-6"
   workflow_dispatch:
 jobs:
   run:
